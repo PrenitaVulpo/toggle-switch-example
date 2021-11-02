@@ -1,0 +1,14 @@
+html,
+body {
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 40em;
+  margin: 2em auto;
+}
+
+main {
+  text-align: center;
+  font-size: 8em;
+}
