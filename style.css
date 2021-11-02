@@ -28,6 +28,7 @@ main {
 .liga-desliga__botao::after,
 .liga-desliga__botao::before {
   content: "";
+  transition: all 0.3s ease;
 }
 
 .liga-desliga__botao::before {
@@ -46,4 +47,12 @@ main {
   height: 0.95em;
   background-color: #fff;
   border-radius: 100%;
+}
+
+.liga-desliga__botao:checked + .liga-desliga__botao::before {
+  background-color: #55d069;
+}
+
+.liga-desliga__botao:checked + .liga-desliga__botao::after {
+  left: 1.025em;
 }
